@@ -42,13 +42,19 @@ while (sentence < 39) {
 for (i = 58; i <= 98; i++) {
   console.log(i);
 }
+/* Another Way */
+var i = 58;
+while (i <= 98) {
+  console.log(i);
+  i++;
+}
 // ৩০.একটা কোড লিখে ৪১২ থেকে ৪৫৬ পর্যন্ত যত জোর সংখ্যা আছে সেগুলাকে দেখাও
 var i = 412;
 while (i <= 456) {
   if (i % 2 == 0) {
     console.log(i);
   }
-  i++;
+  i++; /*Ek kore kore barabo*/
 }
 // ৩১. একটা কোড লিখে ৫৮১ থেকে ৬২৩ পর্যন্ত যত বিজোড় সংখ্যা আছে সেগুলাকে দেখাও
 var i = 581;
@@ -61,7 +67,7 @@ while (i <= 623) {
 // ৩৩ তুমি এতদিন যা যা জিনিস শিখছো সেগুলার নাম দিয়ে একটা array বানাও। তারপর একটা for লুপ দিয়ে সেই array এর সব উপাদান কে আউটপুট হিসেবে দেখাও।
 var learned = ["html", "css", "bootstrap", "tailwind", "js"];
 for (i = 0; i < learned.length; i++) {
-  console.log(i + " " + learned[i]);
+  console.log(learned[i]);
 }
 // ৩৪. তুমি এতদিন পর্যন্ত যে যে মডেলের মোবাইল ফোন ইউজ করেছো সেগুলার নাম দিয়ে একটা array বানাও। তারপর একটা while লুপ দিয়ে সেই array এর উপাদান গুলা একটা একটা করে আউটপুট হিসেবে দেখাও
 var phoneUsed = ["Symphony", "Walton", "Asus", "Umidigi", "Xiaomi"];

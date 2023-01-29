@@ -30,6 +30,12 @@
 //   }
 //   i++;
 // }
+/* Another Way */
+var i = 58;
+while (i <= 98) {
+  console.log(i);
+  i++;
+}
 // 31.
 // var i = 581;
 // while (i <= 623) {
@@ -58,11 +64,11 @@
 //   }
 // }
 // 36.
-var bookPrices = [120, 250, 100, 80, 350];
-for (var i = 0; i < bookPrices.length; i++) {
-  var bookPrice = bookPrices[i];
-  if (bookPrice > 200) {
-    continue;
-  }
-  console.log(bookPrice);
-}
+// var bookPrices = [120, 250, 100, 80, 350];
+// for (var i = 0; i < bookPrices.length; i++) {
+//   var bookPrice = bookPrices[i];
+//   if (bookPrice > 200) {
+//     continue;
+//   }
+//   console.log(bookPrice);
+// }
